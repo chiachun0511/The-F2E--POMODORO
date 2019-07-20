@@ -1,0 +1,127 @@
+
+html{
+    height:100%;
+    margin: 0; 
+    padding: 0;
+}
+body{
+    font-family: '微軟正黑體';
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+    border:none;
+}
+
+.bg-left{
+    background-color:#feecf6;
+    width: 60%;
+    height: 100%;
+    float: left;
+    vertical-align: top;
+   
+}
+    
+.bg-right{
+    background-color:#003063;
+    width: 40%;
+    height: 100%;
+    float: left;
+    vertical-align: top;
+    
+}
+
+.top{
+    background: white;
+    width: 35%;
+    padding: 10px;
+    margin: 100px;
+    font-weight: bold;
+}
+.text{
+    color: #f23e7c;
+    display: inline-block;
+}
+
+.button{
+    color: #f23e7c;
+    float: right;
+    display: inline-block;
+}
+
+.middle{
+    color: #003063;
+    margin: 100px;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.time{
+    color: #fe4283;
+    font-size: 120px;
+    font-weight: bolder;
+}
+.pause{
+    position:absolute;
+    top:20%;
+    left:40%;
+    z-index:2;
+    background-color: #fe4283;
+    color: white;
+    border-radius: 99em;
+    padding: 230px;
+}
+.border{
+    position:absolute;
+    top: 18%;
+    left: 39%;
+    z-index:1;
+    border-radius: 99em;
+    padding: 280px;
+    border-color:#fe4283; 
+    border-style:solid;
+}
+
+.buttom{
+    margin: 100px;
+    color: #003063;
+}
+.list{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.bg-right{
+    color: white;
+}
+
+.icon1{
+    position:absolute;
+    top: 10%;
+    right: 8%;
+    margin-top: 4%;
+}
+
+.icon2{
+    position:absolute;
+    top: 10%;
+    right: 8%;
+    margin-top: 8%;
+}
+
+.icon3{
+    position:absolute;
+    top: 10%;
+    right: 8%;
+    margin-top: 12%;
+}
+
+.POMODORO{
+    position:absolute;
+    top: 80%;
+    right: 8%;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+}
